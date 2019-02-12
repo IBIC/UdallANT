@@ -10,7 +10,7 @@ for i in RC4* ; do
 
 		cd session${j} 
 
-		ln -s /mnt/praxic/udallpilot/bin/00-proc.sh .
+		ln -s /mnt/praxic/udallpilot/bin/00-extract.sh .
 		ln -s /mnt/praxic/udallpilot/lib/Makefile .
 
 		cd ..

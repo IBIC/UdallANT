@@ -36,15 +36,3 @@ if [ ! -e T1.nii.gz ] ; then
 		$(find parrecs/ -name "*MPRAGE*.PAR")
 
 fi
-
-# Resting state
-if [ ! -e rest.nii.gz ] ; then
-
-	dcm2niix_afni 					\
-		-i Y -p Y 					\
-		-f rest		 				\
-		-z Y 						\
-		-o . 						\
-		$(find parrecs/ -name "*Rest*.PAR")
-
-fi

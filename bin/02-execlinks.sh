@@ -3,9 +3,9 @@
 subjects=/mnt/praxic/udallpilot/subjects
 cd ${subjects}
 
-for i in $(find -name "00-proc.sh") ; do
+for i in $(find -name "00-extract.sh") ; do
 
 	cd ${subjects}/$(dirname $i)
-	./00-proc.sh
+	./00-extract.sh
 
 done
