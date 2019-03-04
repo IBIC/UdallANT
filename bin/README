@@ -1,0 +1,19 @@
+Intro
+-----
+"0"-prefixed scripts are executed from bin/
+"subject"-prefixed scripts are linked to individual subject/session directories
+	and executed from there.
+
+Step-by-step
+------------
+1. Execute '01-linkproc.sh' to link the "subject" scripts within subject
+   directories.
+
+2. Within each session directory, execute 01-extract.sh to convert DICOMs and
+   PAR/RECs to NIFTI.
+
+3. Again, within the same directory, execute 02-makeafniscript.sh to create
+   proc.* scripts for each A-F file.
+
+4. Execute each proc.* script (e.g. `./proc.RC4202.ANT_A`) in order to
+   preprocess each task file. It takes about 15 hours on a single core.
