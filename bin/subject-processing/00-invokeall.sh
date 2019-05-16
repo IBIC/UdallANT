@@ -27,9 +27,4 @@ for i in A B C D E F ; do
 		-prefix ${subject}-ANT_${i}-final.nii.gz \
 		${subject}.ANT_${i}.results/errts.${subject}.anaticor+tlrc
 
-	## Behavioral procesing
-
-	task_file=${func_dir}/${dest_pfx}${index}_events.tsv
-
-
 done
