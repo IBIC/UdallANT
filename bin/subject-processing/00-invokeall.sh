@@ -6,6 +6,8 @@ subject=${1}
 # From a subject directory with convert NIFTIs in their respective ANT-?
 # directories:
 
+./convert2nifti.sh
+
 # Skullstrip and deface for upload
 bet T1.nii.gz T1_brain.nii.gz
 pydeface T1.nii.gz
