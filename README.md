@@ -8,14 +8,17 @@ Link: https://openneuro.org/datasets/ds001907/versions/2.0.3
 DOI:  10.18112/openneuro.ds001907.v2.0.3
 
 The processing is very simple:
+
 	bin/subject-processing/00-invokeall.sh (a) converts scanner format to Nifti;
 		(b) skullstrips and defaces anatomical images; and (c) runs afni_proc.py
-		to preprocess data
+		to preprocess data.
+
 	bin/subject-processsing/01-organizeBIDS.sh converts from our in-house
 		organization to the Brain Imaging Data Structure format for upload to
-		OpenNeuro
+		OpenNeuro.
+
 	bin/demo-final.R shows how demographic information was converted from
-		supplied spreadsheets to CSV for upload.
+		supplied spreadsheets (not included) to CSV for sharing.
 
 See Data Note:
 	[pending]
