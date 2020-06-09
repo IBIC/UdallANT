@@ -51,6 +51,7 @@ cog.cols <- c("IDNUM", "Group",
               "tol_total_time",
               "letter_number_sequencing_total",
               "digits_total_score", "digits_forward", "digits_backward")
+
 # What to do with letter_number_sequencing? See grep("letter, colnames(dat1))
 
 # Select columns from data frames; one_of() switches non existent column error

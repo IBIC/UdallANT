@@ -22,10 +22,14 @@ The processing is very simple:
 	supplied spreadsheets (not included) to CSV for sharing.
 
 See Data Note:
-	[pending]
+	Day TKM, Madhyastha TM, Askren MK et al. Attention Network Test fMRI data for 
+	participants with Parkinson’s disease and healthy elderly 
+	[version 1; peer review: 2 approved]. 
+	F1000Research 2019, 8:780 (https://doi.org/10.12688/f1000research.19288.1) 
 
 These scripts have also been archived on Zenodo:
-	[pending]
+	Day TKM: 'ANT: Healthy aging and Parkinson's disease' processing script 
+	(Version 1.0.0). Zenodo. 2019. http://www.doi.org/10.5281/zenodo.2847832
 
 See papers using this data:
 
